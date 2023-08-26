@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+}
+
+table tbody tr {
+  padding: 0.1rem 0;
+}
+
+table tbody tr.even {
+  background: var(--bs-gray-300);
+}
+
+table tbody tr.odd {
+  background: var(--bs-body-bg);
+}
+
+th, td {
+  padding: 0 0.5rem;
+}
+
+td.button-box {
+  display: flex;
+  padding: 0;
+}
+
+td.button-box button {
+  flex: auto;
+  height: 100%;
+}
+
+table input {
+  width: 100%;
+}

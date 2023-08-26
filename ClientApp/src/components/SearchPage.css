@@ -1,0 +1,76 @@
+#search-page {
+  padding-bottom: 2rem;
+}
+
+
+form#search-box {
+  display: flex;
+}
+
+form#search-box * {
+  margin-right: 0.5rem;
+  flex: none;
+}
+
+form#search-box *:last-child {
+  margin-right: 0;
+}
+
+form#search-box input[type=search] {
+  flex: auto;
+}
+
+form#search-box input[type=submit] {
+  flex: 0 0 7rem;
+}
+
+
+#page-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-control * {
+  margin-right: 0.5rem;
+}
+
+#page-control *:last-child {
+  margin-right: 0;
+}
+
+#page-control .page-index {
+  text-align: center;
+  vertical-align: middle;
+  /*height: 100%;*/
+  width: 10rem;
+}
+
+#page-control button {
+  width: 6rem;
+}
+
+
+.web-page-result {
+  margin-top: 1rem;
+  display: flow-root;
+}
+
+.web-page-result div.link-text {
+  font-size: 8pt;
+}
+
+.web-page-result button.debug {
+  float: right;
+}
+
+.web-page-result img.img-thumbnail {
+  float: left;
+  margin: 0 0.25em 0.25em 0;
+}
+
+
+button.debug::before {
+  content: '?';
+  font-size: 1rem;
+}
